@@ -1,0 +1,21 @@
+.kokoa-add {
+  margin: 10px 25px;
+  align-items: center;
+}
+.add_main img,
+.add-second img {
+  display: flex;
+
+  width: 435px;
+  height: 200px;
+  box-sizing: border-box;
+}
+.add-second {
+  margin-top: 25px;
+}
+.add-second span {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}

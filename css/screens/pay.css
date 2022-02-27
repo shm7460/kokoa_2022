@@ -1,0 +1,87 @@
+.more-screen {
+  margin-top: 130px;
+  background-color: var(--yellow);
+}
+.uer-pay {
+  width: 100%;
+  height: 200px;
+}
+.uer-pay__header {
+  padding-top: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.wallet__text {
+  display: flex;
+  align-items: center;
+}
+.wallet__cert {
+  font-size: 15px;
+  font-weight: 400;
+  display: table-cell;
+  vertical-align: middle;
+}
+.uer-pay__header .wallet {
+  font-size: 22px;
+  font-weight: 600;
+}
+.wallet {
+  align-items: center;
+}
+.diver {
+  width: 1px;
+  height: 15px;
+  margin: 0 15px;
+  background-color: #e6d328;
+}
+.uer-pay__ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fefce0;
+  border-radius: 5px;
+  padding: 16px 5px;
+  margin: 20px -10px;
+}
+.uer-pay__icon {
+  display: flex;
+  margin: 0px 10px;
+}
+.uer-pay__icon p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.uer-pay__icon:first-child span {
+  padding-right: 7px;
+}
+.uer-money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.uer-money__pay {
+  display: flex;
+  align-items: center;
+  justify-content: c;
+}
+.uer-money__pay i {
+  margin-right: 5px;
+}
+.uer-money span {
+  font-weight: 400;
+  font-size: 16px;
+}
+.uer-breakdown {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.uer-breakdown__money {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.uer-breakdown__money .diver {
+  margin: 0px 20px;
+}

@@ -1,0 +1,46 @@
+.user-component {
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  border-bottom: var(--main-border);
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 35%;
+  margin-right: 15px;
+}
+.user-component__avatar--xl {
+  width: 70px;
+  height: 70px;
+}
+.user-component__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-component__subtitle {
+  font-size: 15px;
+  color: var(--color-gray);
+  margin-top: 10px;
+  font-weight: 500;
+}
+.user-component__music {
+  padding: 5px 7px;
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  font-size: 13px;
+  border: 1.9px solid #5dca7c;
+  border-radius: 60px;
+}
+.user-component__music i {
+  color: #5dca7c;
+  padding-left: 7px;
+}

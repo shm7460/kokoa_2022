@@ -1,0 +1,33 @@
+.status-bar {
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.status-bar__column {
+  width: 50%;
+}
+.status-bar__column:first-child span {
+  margin-left: 25px;
+  font-weight: 600;
+}
+.status-bar__column:first-child i {
+  margin-left: 5px;
+}
+.status-bar__column:last-child {
+  display: flex;
+  /* display:flex해야 가능함 */
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 25px;
+}
+.status-bar__column:last-child i {
+  margin: 0px 6px;
+}
+.status-bar__column:last-child span {
+  font-weight: 900;
+}
