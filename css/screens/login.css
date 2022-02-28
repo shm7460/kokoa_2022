@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 90px 0px;
+  margin-top: 200px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 #longin-form {
   display: flex;
   flex-direction: column;
-  margin: 0px 30px;
+  margin: 80px 30px;
 }
 #longin-form input {
   padding: 15px 0px;
