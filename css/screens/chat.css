@@ -27,12 +27,27 @@
     transform: none;
   }
 }
+.user-component__chat {
+  border: none;
+}
+.chat-room {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
 .main-chat {
   margin-top: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: fadein 0.8s linear;
+}
+.main-add img {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 25px;
+  border-radius: 10px;
 }
 .chat__timestamp {
   color: white;

@@ -10,21 +10,19 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
+        <span>10:08</span>
+        <i class="fa-solid fa-location-arrow"></i>
       </div>
+
       <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>110%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
+        <i class="fa-solid fa-signal"></i>
+        <span>5G</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
       </div>
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">채팅</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="far fa-comment-dots fa-lg"></i></span>
@@ -39,46 +37,114 @@
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
+      <div class="chat-room">
+        <div class="main-add">
+          <img
+            src="https://ssl.pstatic.net/tveta/libs/1374/1374167/362926fea493b2966a33_20220222182738983_4.jpg"
+            alt=""
+          />
+        </div>
+        <a href="chat.html">
+          <div class="user-component user-component__chat">
+            <div class="user-component__column">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA0MDFfMTky%2FMDAxNTU0MTIwNDc4OTIx.TbAZfTfbM_5aerrCTOGOPxQfmav3CIf88ojvTQb75Zcg.Ecjk-2dqQEHdMWKt3Ty0OLrQU54q_khSRZ3VO66qkasg.JPEG.vfr0101%2FC3EFC0C7_B8B8%253F_%25A9%25A6B8AFC5CD_%252816%2529.jpg&type=sc960_832"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">김미소</h4>
+                <h6 class="user-component__subtitle">우리 약속 언제 잡을까?</h6>
+              </div>
+            </div>
+            <div class="user-component__column-alarm">
+              <span class="user-component__time">21:22</span>
+              <div class="badge">1</div>
+            </div>
+          </div>
+        </a>
+        <a href="chat.html">
+          <div class="user-component user-component__chat">
+            <div class="user-component__column">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIX0x9Nmf4QBca5JcQp1iDUEG5N66GRUaUD1JC52e06ft_e91lpFR9RmCJG_YTTH_7Uqk&usqp=CAU"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">이짱구</h4>
+                <h6 class="user-component__subtitle">하이! 밥은 먹었니?</h6>
+              </div>
+            </div>
+            <div class="user-component__column-alarm">
+              <span class="user-component__time">22:50</span>
+              <div class="badge">3</div>
+            </div>
+          </div>
+        </a>
+        <div class="user-component user-component__chat">
           <div class="user-component__column">
             <img
-              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA0MDFfMTky%2FMDAxNTU0MTIwNDc4OTIx.TbAZfTfbM_5aerrCTOGOPxQfmav3CIf88ojvTQb75Zcg.Ecjk-2dqQEHdMWKt3Ty0OLrQU54q_khSRZ3VO66qkasg.JPEG.vfr0101%2FC3EFC0C7_B8B8%253F_%25A9%25A6B8AFC5CD_%252816%2529.jpg&type=sc960_832"
+              src="https://i.pinimg.com/736x/37/44/3c/37443c72b75c84c9417ad6830e5570d8.jpg"
               class="user-component__avatar user-component__avatar"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title">Sonhyemin</h4>
+              <h4 class="user-component__title">손미소</h4>
+              <h6 class="user-component__subtitle">치킨!!먹고 싶은사람</h6>
+            </div>
+          </div>
+          <div class="user-component__column-alarm">
+            <span class="user-component__time">09:22</span>
+          </div>
+        </div>
+        <div class="user-component user-component__chat">
+          <div class="user-component__column">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPW5FvaGP-IXtrz7yuHiwh0zylqNroDkTF2XXny13IbdyKFbrOieCUiEuHL1swSik7_U4&usqp=CAU"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">나미</h4>
+              <h6 class="user-component__subtitle">케이크 먹으러 갈래?</h6>
+            </div>
+          </div>
+          <div class="user-component__column-alarm">
+            <span class="user-component__time">13:22</span>
+          </div>
+        </div>
+        <div class="user-component user-component__chat">
+          <div class="user-component__column">
+            <img
+              src="https://pbs.twimg.com/media/EOMyLgYUEAAZkGQ.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">봉미선</h4>
               <h6 class="user-component__subtitle">
-                please check my kokoa account info
+                짱구 녀석 어디로 놀러갔는지 아니?
               </h6>
             </div>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
+          <div class="user-component__column-alarm">
+            <span class="user-component__time">16:22</span>
             <div class="badge">1</div>
           </div>
         </div>
-      </a>
-      <a href="chat.html">
-        <div class="user-component">
+        <div class="user-component user-component__chat">
           <div class="user-component__column">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIX0x9Nmf4QBca5JcQp1iDUEG5N66GRUaUD1JC52e06ft_e91lpFR9RmCJG_YTTH_7Uqk&usqp=CAU"
+              src="https://mblogthumb-phinf.pstatic.net/MjAxODAyMjdfMTMx/MDAxNTE5NzQzMDAxNzI1.Q82KrKKBs84ZQRoEv9fNiAK9RJbQK0WNktv2UpGWKDcg.pb8B7xL6dYDiuIT4S1dj6HOofLTV_DUnzBnTAsi7A70g.JPEG.chrisye/18512989_124647758099793_6139352404681818112_n.jpg?type=w2"
               class="user-component__avatar user-component__avatar"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title">짱구</h4>
-              <h6 class="user-component__subtitle">
-                please check my kokoa account info
-              </h6>
+              <h4 class="user-component__title">신짱아</h4>
+              <h6 class="user-component__subtitle">사진</h6>
             </div>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">22:50</span>
-            <div class="badge">3</div>
+          <div class="user-component__column-alarm">
+            <span class="user-component__time">18:50</span>
+            <div class="badge">2</div>
           </div>
         </div>
-      </a>
+      </div>
     </main>
 
     <nav class="nav">
@@ -114,7 +180,7 @@
       <span>Your screen is too big</span>
     </div>
     <script
-      src="https://kit.fontawesome.com/6478f529f2.js "
+      src="https://kit.fontawesome.com/fed145381f.js"
       crossorigin="anonymous"
     ></script>
   </body>

@@ -14,9 +14,15 @@
   #no-mobile {
     display: none;
   }
+  body {
+    margin: 0;
+    /* height: 100vh; */
+    overflow: visible;
+  }
 }
-body {
-  margin: 0;
-  height: 100%;
-  /* overflow: hidden; */
+
+@media (min-width: 645px) {
+  body {
+    overflow: hidden;
+  }
 }

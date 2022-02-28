@@ -28,8 +28,9 @@
 body {
   color: #2f363e;
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+  height: 100vh;
 }
 .main-screen {
+  margin-top: 125px;
   padding: 0px var(--horizontal-space);
 }

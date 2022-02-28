@@ -1,14 +1,10 @@
 .kokoa-add {
   margin: 10px 25px;
-  align-items: center;
 }
 .add_main img,
 .add-second img {
   display: flex;
-
-  width: 435px;
-  height: 200px;
-  box-sizing: border-box;
+  width: 100%;
 }
 .add-second {
   margin-top: 25px;
